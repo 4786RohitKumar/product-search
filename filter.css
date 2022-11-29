@@ -1,0 +1,62 @@
+
+.container {
+    display: flex;
+    padding: 10px;
+  }
+  
+.leftmenu{
+    flex: 1;
+  
+    background-color: aqua;
+}
+
+.menuItems{
+    padding: 20px;
+}
+
+.menuItems > input{
+    height: 37px;
+    padding: 5px;
+}
+
+.categories{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.heading{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.content {
+    flex: 4;
+  }
+  
+  .products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .product{
+    padding: 10px;
+    width: 225px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  img{
+    width: 150px;
+    height: 210px;
+    object-fit: contain;
+  }
+  
+  .name{
+    font-weight: 300;
+  }
